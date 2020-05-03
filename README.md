@@ -9,7 +9,7 @@ A simple benchmark between other web frameworks and router implementation
 
 | Framework      | Language    | Requests/sec |   |   |
 |----------------|-------------|--------------|---|---|
-| hyper v0.13    | Rust 1.43.0 | 112557.51    |   |   |
+| [hyper v0.13](https://github.com/hyperium/hyper)    | Rust 1.43.0 | 112557.51    |   |   |
 | routerify v1.0 | Rust 1.43.0 | 105598.51    |   |   |
 |                |             |              |   |   |
 
