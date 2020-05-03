@@ -29,3 +29,7 @@ MacBook Pro, 2.2 GHz Intel Core i7 processor with 4 cores, 16GB of RAM
 | [warp v0.2](https://github.com/seanmonstar/warp) | Rust 1.43.0 | 81,912 |
 | [go-httprouter, branch master](https://github.com/julienschmidt/httprouter) | Go 1.13.7 | 74,958 |
 | [Rocket, branch async](https://github.com/SergioBenitez/Rocket) | Rust 1.43.0 | 2,041 ? |
+
+## Contributing
+
+Your PRs and suggestions are always welcome.
