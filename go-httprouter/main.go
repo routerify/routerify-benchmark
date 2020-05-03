@@ -21,6 +21,6 @@ func main() {
 	router.GET("/", Index)
 	router.GET("/hello/:name", Hello)
 
-	log.Println("Server is running at :8080")
-	log.Fatal(http.ListenAndServe(":8080", router))
+	log.Println("Server is running at :8081")
+	log.Fatal(http.ListenAndServe(":8081", router))
 }
