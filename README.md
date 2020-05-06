@@ -23,7 +23,7 @@ MacBook Pro, 2.2 GHz Intel Core i7 processor with 4 cores, 16GB of RAM
 | Framework      | Language    | Requests/sec |
 |----------------|-------------|--------------|
 | [hyper v0.13](https://github.com/hyperium/hyper) | Rust 1.43.0 | 112,557 |
-| [routerify v1.0](https://github.com/routerify/routerify) | Rust 1.43.0 | 112,320 |
+| [routerify v1.0](https://github.com/routerify/routerify) with [hyper v0.13](https://github.com/hyperium/hyper) | Rust 1.43.0 | 112,320 |
 | [gotham v0.4.0](https://github.com/gotham-rs/gotham) | Rust 1.43.0 | 100,097 |
 | [actix-web v2](https://github.com/actix/actix-web) | Rust 1.43.0 | 96,397 |
 | [warp v0.2](https://github.com/seanmonstar/warp) | Rust 1.43.0 | 81,912 |
