@@ -6,4 +6,5 @@ edition = "2018"
 
 [dependencies]
 # rocket = "0.4.3"
-rocket = { git = "https://github.com/SergioBenitez/Rocket.git", branch = "async" }
+rocket = { git = "https://github.com/SergioBenitez/Rocket.git" }
+tokio = "0.2"

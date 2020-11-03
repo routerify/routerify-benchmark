@@ -1,5 +1,3 @@
-#![feature(proc_macro_hygiene, decl_macro)]
-
 #[macro_use]
 extern crate rocket;
 
@@ -8,6 +6,11 @@ fn hello() -> String {
     format!("Hello, World!")
 }
 
-fn main() {
-    rocket::ignite().mount("/", routes![hello]).launch();
+#[tokio::main]
+async fn main() {
+    rocket::custom(rocket::Config::figment().merge(("port", 8081)))
+        .mount("/", routes![hello])
+        .launch()
+        .await
+        .expect("Run Rocket");
 }
